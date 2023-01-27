@@ -2,7 +2,15 @@
 module.exports = {
   purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        '700': '700px',
+      },
+      colors: {
+        'regal-blue': '#243c5a',
+      },
+    },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  darkMode: 'media',
 }

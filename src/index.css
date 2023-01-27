@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .bg-multigradient {
+        background-color:hsla(0,0%,4%,1);
+background-image:
+radial-gradient(at 74% 12%, hsla(359,99%,68%,1) 0px, transparent 50%),
+radial-gradient(at 0% 0%, hsla(11,85%,75%,1) 0px, transparent 50%),
+radial-gradient(at 71% 85%, hsla(7,100%,56%,1) 0px, transparent 50%),
+radial-gradient(at 0% 100%, hsla(355,100%,93%,1) 0px, transparent 50%);
+    }
+
+    .bg-luiz {
+        background-image: url('images/luiz-home-red.jpg')
+    }
+}
