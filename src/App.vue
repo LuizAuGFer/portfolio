@@ -1,9 +1,9 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+   <div>
+    <div class="container mx-auto p-4 bg-blue-700 rounded text-white mt-4 shadow-xl">
+      <h1 class="text-3xl">Teste 😊</h1>
+    </div>
+   </div>
 </template>
 
 <style>
